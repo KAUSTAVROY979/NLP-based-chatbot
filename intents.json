@@ -1,0 +1,110 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hey",
+        "Hi",
+        "Is anyone there?",
+        "How are you"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Thank you for visiting Roy's Kitchen, how can I help you?",
+        "Hi there, This is Roy's Kitchen, How can I help you",
+        "Hi there, how can We help?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What is your overall menu?",
+        "What is available at your shop?",
+        "What dishes do you serve?",
+        "what do you serve?",
+        "What is served at your shop?"
+      ],
+      "responses": [
+        "We sell Chinese dishes",
+        "We have Chinese delicacies"
+      ]
+    },
+    {
+      "tag": "Chinese",
+      "patterns": [
+        "Which Chinese items do you have?",
+        "Can you tell me about Your Chinese dishes",
+        "What Chinese Items do you sell?",
+        "What Chinese items are available?",
+        "What Chinese items are served at your shop?"
+      ],
+      "responses": [
+        "Veg Noodles - Rs. 50\nSpring Rolls - Rs. 40\nGarlic Noodles - Rs. 55\nChicken Noodles - Rs. 160\nHoney Chilli Potatoes - Rs. 80\nChicken Fried Rice - Rs. 160\n"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do You accept Debit cards?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "What are the modes of payment available?",
+        "How can I pay?",
+        "What are the payment methods available?s",
+        "Can I pay with UPI?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, Debit Cards and UPI. We also accept Cash On Delivery",
+        "We accept most major credit cards, and UPI. We also accept Cash On Delivery"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "Do you offer delivery?",
+        "When do I get my delivery?",
+        "What is your delivery policy"
+      ],
+      "responses": [
+        "We provide home delivery with 30 Min delivery guarantee",
+        "We have Home delivery with 30 min Delivery guarantee"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Can you be funny?"
+      ],
+      "responses": [
+        "Why was 6 afraid of 7? Because 7, 8, 9",
+        "What did the buffalo say when his son left for college? Bison.",
+        "What gets wetter the more it dries?\nA towel.",
+        "What did one plate say to another? Lunch is on me!",
+        "Why do all Python developers wear glasses? Because they can't 'C'"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    }
+  ]
+}
